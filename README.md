@@ -9,7 +9,7 @@ public et bien au dela.
 L'object de la compétition DEEPFAKE DETECTION CHALLENGE, serait d'inciter les chercheurs du monde entier à créer de
 nouvelles technologie qui peuvent aider à detecter les deepfakes et les medias manipulés.
 
-=================================Les données===================================
+                Les données
 
 - 1 dossier test_videos contenant toutes 400 videos de test .mp4 pour tester le modele
 - 1 dossier train_sample_videos contenant 400 les videos d'entrainement .mp4 qui serviront à entrainer
@@ -17,7 +17,8 @@ nouvelles technologie qui peuvent aider à detecter les deepfakes et les medias 
 - 1 fichier .csv de 400 lignes et 2 colonnes la premiere ( les lignes correspondent aux noms des 400 videos test) et 
   la deuxieme colonne contient que des 0.
 
-=====================Premièr notebook(5eme place)===================================
+                Premièr notebook(5eme place)
+		
 ° Extraction des visages: 
 	*chaque nième trame passe par le model MTCNN.
  	*Les coordonnées de la boîte englobante sont ensuite utilisées pour définir 	un masque dans un tableau 3D.
@@ -29,7 +30,7 @@ nouvelles technologie qui peuvent aider à detecter les deepfakes et les medias 
 
 
 
-============================Deuxieme notebook(12 eme place)======================
+                Deuxieme notebook(12 eme place)
  
 les difficultés rencontrées par le compétiteur :
 ° MesoNet, RNN - sous-ajustement sur les données de train

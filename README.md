@@ -17,7 +17,9 @@ nouvelles technologie qui peuvent aider à detecter les deepfakes et les medias 
 - 1 fichier .csv de 400 lignes et 2 colonnes la premiere ( les lignes correspondent aux noms des 400 videos test) et 
   la deuxieme colonne contient que des 0.
 
-                Premièr notebook(5eme place)
+              Premièr notebook(5eme place)
+
+![alt text](https://github.com/mehdiguel/DeepLearningIASchool/blob/main/image.jpg?raw=true)	
 		
 ° Extraction des visages: 
 	*chaque nième trame passe par le model MTCNN.

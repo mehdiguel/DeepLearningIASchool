@@ -1,4 +1,4 @@
-		Présentation de la compétition & objectifs
+		                                             	Présentation de la compétition & objectifs
 
 Le Deepfake prend une ampleur de plus en plus considérable avec l'avancée permanente de l'IA. Les vidéos générées 
 sont de plus en plus réalistes et deviennent difficiles à distinguer du vrai. Cela pose en effet un problème majeur 
@@ -9,7 +9,7 @@ public et bien au dela.
 L'object de la compétition DEEPFAKE DETECTION CHALLENGE, serait d'inciter les chercheurs du monde entier à créer de
 nouvelles technologie qui peuvent aider à detecter les deepfakes et les medias manipulés.
 
-                Les données
+                						Les données
 
 - 1 dossier test_videos contenant toutes 400 videos de test .mp4 pour tester le modele
 - 1 dossier train_sample_videos contenant 400 les videos d'entrainement .mp4 qui serviront à entrainer
@@ -17,7 +17,7 @@ nouvelles technologie qui peuvent aider à detecter les deepfakes et les medias 
 - 1 fichier .csv de 400 lignes et 2 colonnes la premiere ( les lignes correspondent aux noms des 400 videos test) et 
   la deuxieme colonne contient que des 0.
 
-              Premièr notebook(5eme place)
+              							Premièr notebook(5eme place)
 
 ![alt text](https://github.com/mehdiguel/DeepLearningIASchool/blob/main/image.png?raw=true)	
 		
@@ -32,7 +32,7 @@ nouvelles technologie qui peuvent aider à detecter les deepfakes et les medias 
 
 
 
-                Deuxieme notebook(12 eme place)
+                						Deuxieme notebook(12 eme place)
  
 les difficultés rencontrées par le compétiteur :
 ° MesoNet, RNN - sous-ajustement sur les données de train

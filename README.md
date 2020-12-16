@@ -19,7 +19,7 @@ nouvelles technologie qui peuvent aider à detecter les deepfakes et les medias 
 
               Premièr notebook(5eme place)
 
-![alt text](https://github.com/mehdiguel/DeepLearningIASchool/blob/main/image.jpg?raw=true)	
+![alt text](https://github.com/mehdiguel/DeepLearningIASchool/blob/main/image.png?raw=true)	
 		
 ° Extraction des visages: 
 	*chaque nième trame passe par le model MTCNN.

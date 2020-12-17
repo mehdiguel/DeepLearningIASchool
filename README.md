@@ -26,7 +26,7 @@ la probabilité que la vidéo soit une fausse.
 						Metrique
 
 Les soumissions sont notées en fonction de la perte de log (LogLoss)
-![alt text](https://github.com/mehdiguel/DeepLearningIASchool/blob/main/logloss.png?raw=true)
+![alt text](https://github.com/mehdiguel/DeepLearningIASchool/blob/main/Logloss.png?raw=true)
 
 où
 

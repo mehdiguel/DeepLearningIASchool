@@ -30,10 +30,10 @@ Les soumissions sont notées en fonction de la perte de log (LogLoss)
 
 où
 
-n est le nombre de vidéos prévues
-y^i est la probabilité prédite que la vidéo soit fausse
-yi est 1 si la vidéo est FAUSSE, 0 si elle est RÉELLE
-log() est le logarithme naturel (base e)
+- n est le nombre de vidéos prévues
+- y^i est la probabilité prédite que la vidéo soit fausse
+- yi est 1 si la vidéo est FAUSSE, 0 si elle est RÉELLE
+- log() est le logarithme naturel (base e)
 
 Une Log loss moins importante est préférable. L'utilisation du logarithme est une punition extrême pour être à la fois confiant et mauvais.
 						

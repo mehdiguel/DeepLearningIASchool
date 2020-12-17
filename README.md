@@ -17,7 +17,26 @@ nouvelles technologie qui peuvent aider à detecter les deepfakes et les medias 
 - 1 fichier .csv de 400 lignes et 2 colonnes la premiere ( les lignes correspondent aux noms des 400 videos test) et 
   la deuxieme colonne contient que des 0.
 
+                				Qu'est-ce qu'on predit 
 
+Il faut prédire si une vidéo particulière est une contrefaçon ou non. Un deepfake peut être soit un échange de visage ou de voix (ou les deux).
+Dans les données de formation, cela est indiqué par la chaîne "REAL" ou "FAKE" dans la colonne "label". Dans la soumission, on prédit
+la probabilité que la vidéo soit une fausse.
+
+						Metrique
+
+Les soumissions sont notées en fonction de la perte de log (LogLoss)
+![alt text](https://github.com/mehdiguel/DeepLearningIASchool/blob/main/logloss.png?raw=true)
+
+où
+
+n est le nombre de vidéos prévues
+y^i est la probabilité prédite que la vidéo soit fausse
+yi est 1 si la vidéo est FAUSSE, 0 si elle est RÉELLE
+log() est le logarithme naturel (base e)
+
+Une Log loss moins importante est préférable. L'utilisation du logarithme est une punition extrême pour être à la fois confiant et mauvais.
+						
 						Premièr notebook(5eme place)
 
 ![alt text](https://github.com/mehdiguel/DeepLearningIASchool/blob/main/image.png?raw=true)	
